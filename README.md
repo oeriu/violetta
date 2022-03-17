@@ -45,7 +45,6 @@ this is when I couldn't get enough of ripping all my hair out
 [backend/session/session.c:218] Failed to load session backend 
 [sway/server.c:53] Unable to create backend
 ```
-
 6. do commands
 ```
 mkdir -p /tmp/swaytmp
