@@ -2,9 +2,24 @@
 this repository was made to prevent users from ever breaking their keyboards
 
 ### lists of available walkthroughs
-[Wayland](#wayland)  
+(c)[chroot](#chroot) (w)[Wayland](#wayland) 
+
+## chroot
+made when I did something stupid
+
+1. Download live image at https://voidlinux.org/download/
+2. Flash the iso using Rufus or `dd`
+3. (OPTIONAL) If issues are happening, edit boot options
+
+    black screen? add `nomodeset` to boot options
+
+4. mount -t auto /dev/sda# /dev/void </br>
+   chroot /mnt/void </br>
+   
+5. Check if xbps commands, repos are working `xbps-install -Su`
 
 ## Wayland
+this is when I couldn't get enough of ripping all my hair out
 ### Installing Wayland Compositors
 #### Sway with seatd 
 
