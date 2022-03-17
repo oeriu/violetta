@@ -1,4 +1,4 @@
-## void-frustation
+## vlb
 this repository was made to prevent users from ever breaking their keyboards
 
 ### lists of available walkthroughs
