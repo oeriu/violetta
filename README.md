@@ -8,15 +8,21 @@ this repository was made to prevent users from ever breaking their keyboards
 made when I did something stupid
 
 1. Download live image at https://voidlinux.org/download/
-2. Flash the iso using Rufus or `dd`
-3. (OPTIONAL) If issues are happening, edit boot options
+2. Flash the iso to usb stick using Rufus or `dd`
+3. Change Boot Order to usb stick
+4. (OPTIONAL) If issues are happening, edit boot options
 
     black screen? add `nomodeset` to boot options
 
-4. mount -t auto /dev/sda# /dev/void </br>
+5. Enter credentials 
+   ```
+   login: anon
+   passw: voidlinux
+   ```
+6. mount -t auto /dev/sda# /dev/void </br>
    chroot /mnt/void </br>
    
-5. Check if xbps commands, repos are working `xbps-install -Su`
+7. Check if repos and xbps commands are working `xbps-install -Su`
 
 ## Wayland
 this is when I couldn't get enough of ripping all my hair out
