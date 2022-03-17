@@ -14,7 +14,7 @@ made when I did something stupid
 
     black screen? add `nomodeset` to boot options
 
-5. Enter credentials 
+5. Enter login credentials 
    ```
    login: anon
    passw: voidlinux
