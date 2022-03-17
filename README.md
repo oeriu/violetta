@@ -51,7 +51,7 @@ xorg is throttling my cpu, how do i install no-wayland?
 mkdir -p /tmp/swaytmp
 export XDG_RUNTIME_DIR=/tmp/swaytmp
 ```
-7. goto your tty </br>
+7. goto your tty
   you can cycle ttys from 1 - # </br>by doing ctrl + alt + F(number) / F1 / F2 / F3
   
 8. in your current tty; do `exec sway`
