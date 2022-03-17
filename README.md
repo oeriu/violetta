@@ -5,7 +5,7 @@ this repository was made to prevent users from ever breaking their keyboards
 (c)[chroot](#chroot) (w)[Wayland](#wayland) 
 
 ## chroot
-made when I did something stupid
+my essay's deadline is in 30 minutes, please help me!
 
 1. Download live image at https://voidlinux.org/download/
 2. Flash the iso to usb stick using Rufus or `dd`
@@ -25,7 +25,7 @@ made when I did something stupid
 7. Check if xbps is working `xbps-install -Su`
 
 ## Wayland
-this is when I couldn't get enough of ripping all my hair out
+xorg is throttling my cpu, how do i install no-wayland?
 ### Installing Wayland Compositors
 #### Sway with seatd 
 
