@@ -46,7 +46,7 @@ this is when I couldn't get enough of ripping all my hair out
 [sway/server.c:53] Unable to create backend
 ```
 
-6. do this commands
+6. do commands
 ```
 mkdir -p /tmp/swaytmp
 export XDG_RUNTIME_DIR=/tmp/swaytmp
