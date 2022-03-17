@@ -18,11 +18,11 @@ made when I did something stupid
    ```
    login: anon
    passw: voidlinux
+6. ```
+   mount -t auto /dev/sda# /dev/void
+   chroot /mnt/void
    ```
-6. mount -t auto /dev/sda# /dev/void </br>
-   chroot /mnt/void </br>
-   
-7. Check if repos and xbps commands are working `xbps-install -Su`
+7. Check if xbps is working `xbps-install -Su`
 
 ## Wayland
 this is when I couldn't get enough of ripping all my hair out
