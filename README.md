@@ -8,9 +8,9 @@ this repository was made to prevent users from ever breaking their keyboards
 my essay's deadline is in 30 minutes, please help me!
 
 1. download live image at https://voidlinux.org/download/
-2. flash the iso to usb stick using Rufus or `dd`
-3. change Boot Order to usb stick
-4. (optional) If issues are happening, edit boot options
+2. flash .iso file to usb stick using Rufus or `dd`
+3. change boot order to usb stick
+4. (optional) If issues are happening, configure boot options
 
     black screen? add `nomodeset` to boot options
 
@@ -46,9 +46,9 @@ xorg is throttling my cpu, how do i install no-wayland?
 [backend/session/session.c:218] Failed to load session backend 
 [sway/server.c:53] Unable to create backend
 ```
-6. do commands
+6. set XDG_RUNTIME_DIR
 ```
 mkdir -p /tmp/swaytmp
 export XDG_RUNTIME_DIR=/tmp/swaytmp
 ```  
-7. in your current tty; do `exec sway`
+7. in current tty; do `exec sway`
