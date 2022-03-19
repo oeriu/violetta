@@ -9,7 +9,7 @@ my essay's deadline is in 30 minutes, please help me!
 
 1. download live image at https://voidlinux.org/download/
 2. flash .iso file to usb stick using Rufus or `dd`
-3. change boot order to usb stick
+3. reboot and change boot order to usb stick
 4. (optional) If issues are happening, configure boot options
 
     black screen? add `nomodeset` to boot options
