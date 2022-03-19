@@ -2,7 +2,7 @@
 this repository was made to prevent users from ever breaking their keyboards
 
 ### lists of available walkthroughs
-(c)[chroot](#chroot) (w)[Wayland](#wayland) 
+(c)[chroot](#chroot) (w)[wayland](#wayland) 
 
 ## chroot
 my essay's deadline is in 30 minutes, please help me!
@@ -25,7 +25,7 @@ my essay's deadline is in 30 minutes, please help me!
 7. check if xbps is working `xbps-install -Su`
 8. do anything to fix your system
 
-## Wayland
+## wayland
 xorg is throttling my cpu, how do i install no-wayland?
 ### Installing Wayland Compositors
 #### Sway with seatd 
