@@ -18,12 +18,15 @@ my essay's deadline is in 30 minutes, please help me!
    ```
    login: anon
    passw: voidlinux
-6. ```
-   mount -t auto /dev/sda# /dev/void
+6. find where linux is installed `lsblk`
+
+7. ```
+   mkdir /mnt/void
+   mount -t auto /dev/sda# /mnt/void
    chroot /mnt/void
    ```
-7. check if xbps is working `xbps-install -Su`
-8. do anything to fix your system
+8. check if xbps is working `xbps-install -Su`
+9. do anything to fix your system
 
 ## wayland
 xorg is throttling my cpu, how do i install no-wayland?
