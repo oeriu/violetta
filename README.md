@@ -23,7 +23,7 @@ my essay's deadline is in 30 minutes, please help me!
    chroot /mnt/void
    ```
 7. Check if xbps is working `xbps-install -Su`
-8. Now, do anything to fix your system
+8. Do anything to fix your system
 
 ## Wayland
 xorg is throttling my cpu, how do i install no-wayland?
