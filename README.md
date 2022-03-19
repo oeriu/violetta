@@ -7,14 +7,14 @@ this repository was made to prevent users from ever breaking their keyboards
 ## chroot
 my essay's deadline is in 30 minutes, please help me!
 
-1. Download live image at https://voidlinux.org/download/
-2. Flash the iso to usb stick using Rufus or `dd`
-3. Change Boot Order to usb stick
-4. (Optional) If issues are happening, edit boot options
+1. download live image at https://voidlinux.org/download/
+2. flash the iso to usb stick using Rufus or `dd`
+3. change Boot Order to usb stick
+4. (optional) If issues are happening, edit boot options
 
     black screen? add `nomodeset` to boot options
 
-5. Enter login credentials 
+5. enter login credentials 
    ```
    login: anon
    passw: voidlinux
@@ -22,8 +22,8 @@ my essay's deadline is in 30 minutes, please help me!
    mount -t auto /dev/sda# /dev/void
    chroot /mnt/void
    ```
-7. Check if xbps is working `xbps-install -Su`
-8. Do anything to fix your system
+7. check if xbps is working `xbps-install -Su`
+8. do anything to fix your system
 
 ## Wayland
 xorg is throttling my cpu, how do i install no-wayland?
